@@ -18,6 +18,7 @@
 		7C93FA7820AF89B6003ABAB5 /* CharacterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C93FA7720AF89B6003ABAB5 /* CharacterProtocol.swift */; };
 		7C93FA7A20AF9035003ABAB5 /* MonsterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C93FA7920AF9035003ABAB5 /* MonsterProtocol.swift */; };
 		7C93FA7C20AFA541003ABAB5 /* SpellcasterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C93FA7B20AFA541003ABAB5 /* SpellcasterProtocol.swift */; };
+		7C93FA7F20AFA5D7003ABAB5 /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C93FA7E20AFA5D7003ABAB5 /* Element.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		7C93FA7720AF89B6003ABAB5 /* CharacterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterProtocol.swift; sourceTree = "<group>"; };
 		7C93FA7920AF9035003ABAB5 /* MonsterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterProtocol.swift; sourceTree = "<group>"; };
 		7C93FA7B20AFA541003ABAB5 /* SpellcasterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellcasterProtocol.swift; sourceTree = "<group>"; };
+		7C93FA7E20AFA5D7003ABAB5 /* Element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Element.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				7C36037B209E99E6003B6288 /* Actions.sks */,
 				7C36037D209E99E6003B6288 /* GameScene.swift */,
 				7C36037F209E99E6003B6288 /* GameViewController.swift */,
+				7C93FA7D20AFA5C4003ABAB5 /* Spells */,
 				7C93FA7620AF89A4003ABAB5 /* Protocols */,
 				7C93FA7520AF8955003ABAB5 /* Model */,
 				7C360384209E99E6003B6288 /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				7C93FA7B20AFA541003ABAB5 /* SpellcasterProtocol.swift */,
 			);
 			path = Protocols;
+			sourceTree = "<group>";
+		};
+		7C93FA7D20AFA5C4003ABAB5 /* Spells */ = {
+			isa = PBXGroup;
+			children = (
+				7C93FA7E20AFA5D7003ABAB5 /* Element.swift */,
+			);
+			path = Spells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +247,7 @@
 				7C93FA7820AF89B6003ABAB5 /* CharacterProtocol.swift in Sources */,
 				7C93FA7A20AF9035003ABAB5 /* MonsterProtocol.swift in Sources */,
 				7C360380209E99E6003B6288 /* GameViewController.swift in Sources */,
+				7C93FA7F20AFA5D7003ABAB5 /* Element.swift in Sources */,
 				7C360378209E99E6003B6288 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
