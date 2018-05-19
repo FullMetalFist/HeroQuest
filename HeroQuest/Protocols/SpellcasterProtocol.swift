@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+protocol Spellcaster {
+    var element: [Element] { get set }
+    func castSpellAction(on character: Character?, monster: Monster?)
+}
