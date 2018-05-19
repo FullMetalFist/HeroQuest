@@ -17,6 +17,7 @@
 		7C360393209E99E6003B6288 /* HeroQuestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C360392209E99E6003B6288 /* HeroQuestTests.swift */; };
 		7C93FA7820AF89B6003ABAB5 /* CharacterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C93FA7720AF89B6003ABAB5 /* CharacterProtocol.swift */; };
 		7C93FA7A20AF9035003ABAB5 /* MonsterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C93FA7920AF9035003ABAB5 /* MonsterProtocol.swift */; };
+		7C93FA7C20AFA541003ABAB5 /* SpellcasterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C93FA7B20AFA541003ABAB5 /* SpellcasterProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		7C360394209E99E6003B6288 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C93FA7720AF89B6003ABAB5 /* CharacterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterProtocol.swift; sourceTree = "<group>"; };
 		7C93FA7920AF9035003ABAB5 /* MonsterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterProtocol.swift; sourceTree = "<group>"; };
+		7C93FA7B20AFA541003ABAB5 /* SpellcasterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellcasterProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 			children = (
 				7C93FA7720AF89B6003ABAB5 /* CharacterProtocol.swift */,
 				7C93FA7920AF9035003ABAB5 /* MonsterProtocol.swift */,
+				7C93FA7B20AFA541003ABAB5 /* SpellcasterProtocol.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C93FA7C20AFA541003ABAB5 /* SpellcasterProtocol.swift in Sources */,
 				7C36037E209E99E6003B6288 /* GameScene.swift in Sources */,
 				7C93FA7820AF89B6003ABAB5 /* CharacterProtocol.swift in Sources */,
 				7C93FA7A20AF9035003ABAB5 /* MonsterProtocol.swift in Sources */,
