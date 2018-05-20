@@ -19,4 +19,5 @@ protocol Character {
     func searchForTreasureAction() -> Bool
     func searchForTrapsAction() -> Bool
     func disarmTrapAction() -> (Bool, Int)
+    func moveAction() -> Int
 }
