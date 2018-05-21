@@ -15,6 +15,7 @@
 		7C360385209E99E6003B6288 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C360384209E99E6003B6288 /* Assets.xcassets */; };
 		7C360388209E99E6003B6288 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C360386209E99E6003B6288 /* LaunchScreen.storyboard */; };
 		7C360393209E99E6003B6288 /* HeroQuestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C360392209E99E6003B6288 /* HeroQuestTests.swift */; };
+		7C677F1220B34D8E001ACC8B /* ChaosSpellcasterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C677F1120B34D8E001ACC8B /* ChaosSpellcasterProtocol.swift */; };
 		7C93FA7820AF89B6003ABAB5 /* CharacterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C93FA7720AF89B6003ABAB5 /* CharacterProtocol.swift */; };
 		7C93FA7A20AF9035003ABAB5 /* MonsterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C93FA7920AF9035003ABAB5 /* MonsterProtocol.swift */; };
 		7C93FA7C20AFA541003ABAB5 /* SpellcasterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C93FA7B20AFA541003ABAB5 /* SpellcasterProtocol.swift */; };
@@ -44,6 +45,7 @@
 		7C36038E209E99E6003B6288 /* HeroQuestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeroQuestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C360392209E99E6003B6288 /* HeroQuestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroQuestTests.swift; sourceTree = "<group>"; };
 		7C360394209E99E6003B6288 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C677F1120B34D8E001ACC8B /* ChaosSpellcasterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaosSpellcasterProtocol.swift; sourceTree = "<group>"; };
 		7C93FA7720AF89B6003ABAB5 /* CharacterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterProtocol.swift; sourceTree = "<group>"; };
 		7C93FA7920AF9035003ABAB5 /* MonsterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterProtocol.swift; sourceTree = "<group>"; };
 		7C93FA7B20AFA541003ABAB5 /* SpellcasterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellcasterProtocol.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 				7C93FA7720AF89B6003ABAB5 /* CharacterProtocol.swift */,
 				7C93FA7920AF9035003ABAB5 /* MonsterProtocol.swift */,
 				7C93FA7B20AFA541003ABAB5 /* SpellcasterProtocol.swift */,
+				7C677F1120B34D8E001ACC8B /* ChaosSpellcasterProtocol.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 				7C93FA7C20AFA541003ABAB5 /* SpellcasterProtocol.swift in Sources */,
 				7C36037E209E99E6003B6288 /* GameScene.swift in Sources */,
 				7C93FA7820AF89B6003ABAB5 /* CharacterProtocol.swift in Sources */,
+				7C677F1220B34D8E001ACC8B /* ChaosSpellcasterProtocol.swift in Sources */,
 				7C93FA7A20AF9035003ABAB5 /* MonsterProtocol.swift in Sources */,
 				7C360380209E99E6003B6288 /* GameViewController.swift in Sources */,
 				7C93FA7F20AFA5D7003ABAB5 /* Element.swift in Sources */,
